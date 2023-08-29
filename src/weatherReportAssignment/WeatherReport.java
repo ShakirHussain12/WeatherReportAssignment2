@@ -21,7 +21,7 @@ public class WeatherReport {
 	
 	public int userInputChoice() throws Exception{
 		Scanner sc= new Scanner(System.in);    //System.in is a standard input stream  
-		System.out.print("Enter 0/1/2/3:...");  
+		System.out.print("Enter Your Choices (0/1/2/3) = ");  
 		
 		int n = sc.nextInt();
 		
